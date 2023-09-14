@@ -10,12 +10,12 @@
 		A15BD54E2AB2211600162298 /* LoadingPackmanViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD54D2AB2211600162298 /* LoadingPackmanViewApp.swift */; };
 		A15BD5522AB2211800162298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15BD5512AB2211800162298 /* Assets.xcassets */; };
 		A15BD5552AB2211800162298 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15BD5542AB2211800162298 /* Preview Assets.xcassets */; };
-		A16FA64D2AB3375C002DAECB /* LoadingPackmanView in Frameworks */ = {isa = PBXBuildFile; productRef = A16FA64C2AB3375C002DAECB /* LoadingPackmanView */; };
+		A16FA6512AB3590B002DAECB /* LoadingPacmanView in Frameworks */ = {isa = PBXBuildFile; productRef = A16FA6502AB3590B002DAECB /* LoadingPacmanView */; };
 		A176BD6A2AB29BE200FCF5CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176BD692AB29BE200FCF5CE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A15BD54A2AB2211600162298 /* LoadingPackmanViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingPackmanViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15BD54A2AB2211600162298 /* LoadingPacmanViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingPacmanViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15BD54D2AB2211600162298 /* LoadingPackmanViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPackmanViewApp.swift; sourceTree = "<group>"; };
 		A15BD5512AB2211800162298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15BD5542AB2211800162298 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -27,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16FA64D2AB3375C002DAECB /* LoadingPackmanView in Frameworks */,
+				A16FA6512AB3590B002DAECB /* LoadingPacmanView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +37,7 @@
 		A15BD5412AB2211600162298 = {
 			isa = PBXGroup;
 			children = (
-				A15BD54C2AB2211600162298 /* LoadingPackmanViewApp */,
+				A15BD54C2AB2211600162298 /* LoadingPacmanViewApp */,
 				A15BD54B2AB2211600162298 /* Products */,
 				A16FA6482AB32B5C002DAECB /* Frameworks */,
 			);
@@ -46,12 +46,12 @@
 		A15BD54B2AB2211600162298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A15BD54A2AB2211600162298 /* LoadingPackmanViewApp.app */,
+				A15BD54A2AB2211600162298 /* LoadingPacmanViewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A15BD54C2AB2211600162298 /* LoadingPackmanViewApp */ = {
+		A15BD54C2AB2211600162298 /* LoadingPacmanViewApp */ = {
 			isa = PBXGroup;
 			children = (
 				A15BD54D2AB2211600162298 /* LoadingPackmanViewApp.swift */,
@@ -59,7 +59,7 @@
 				A15BD5512AB2211800162298 /* Assets.xcassets */,
 				A15BD5532AB2211800162298 /* Preview Content */,
 			);
-			path = LoadingPackmanViewApp;
+			path = LoadingPacmanViewApp;
 			sourceTree = "<group>";
 		};
 		A15BD5532AB2211800162298 /* Preview Content */ = {
@@ -80,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A15BD5492AB2211600162298 /* LoadingPackmanViewApp */ = {
+		A15BD5492AB2211600162298 /* LoadingPacmanViewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPackmanViewApp" */;
+			buildConfigurationList = A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPacmanViewApp" */;
 			buildPhases = (
 				A15BD5462AB2211600162298 /* Sources */,
 				A15BD5472AB2211600162298 /* Frameworks */,
@@ -92,12 +92,12 @@
 			);
 			dependencies = (
 			);
-			name = LoadingPackmanViewApp;
+			name = LoadingPacmanViewApp;
 			packageProductDependencies = (
-				A16FA64C2AB3375C002DAECB /* LoadingPackmanView */,
+				A16FA6502AB3590B002DAECB /* LoadingPacmanView */,
 			);
 			productName = LoadingPackmanView;
-			productReference = A15BD54A2AB2211600162298 /* LoadingPackmanViewApp.app */;
+			productReference = A15BD54A2AB2211600162298 /* LoadingPacmanViewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPackmanViewApp" */;
+			buildConfigurationList = A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPacmanViewApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,13 +125,13 @@
 			);
 			mainGroup = A15BD5412AB2211600162298;
 			packageReferences = (
-				A16FA64B2AB3375C002DAECB /* XCRemoteSwiftPackageReference "LoadingPackmanViewSPM" */,
+				A16FA64F2AB3590B002DAECB /* XCRemoteSwiftPackageReference "LoadingPacmanViewSPM" */,
 			);
 			productRefGroup = A15BD54B2AB2211600162298 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A15BD5492AB2211600162298 /* LoadingPackmanViewApp */,
+				A15BD5492AB2211600162298 /* LoadingPacmanViewApp */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LoadingPackmanViewApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LoadingPacmanViewApp/Preview Content\"";
 				DEVELOPMENT_TEAM = GCF3SV3MC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -296,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abraaoan.LoadingPackmanView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abraaoan.LoadingPacmanView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LoadingPackmanViewApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LoadingPacmanViewApp/Preview Content\"";
 				DEVELOPMENT_TEAM = GCF3SV3MC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abraaoan.LoadingPackmanView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abraaoan.LoadingPacmanView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPackmanViewApp" */ = {
+		A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPacmanViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A15BD5562AB2211800162298 /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPackmanViewApp" */ = {
+		A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPacmanViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A15BD5592AB2211800162298 /* Debug */,
@@ -357,9 +357,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A16FA64B2AB3375C002DAECB /* XCRemoteSwiftPackageReference "LoadingPackmanViewSPM" */ = {
+		A16FA64F2AB3590B002DAECB /* XCRemoteSwiftPackageReference "LoadingPacmanViewSPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/abraaoan/LoadingPackmanViewSPM.git";
+			repositoryURL = "https://github.com/abraaoan/LoadingPacmanViewSPM.git";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -368,10 +368,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A16FA64C2AB3375C002DAECB /* LoadingPackmanView */ = {
+		A16FA6502AB3590B002DAECB /* LoadingPacmanView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A16FA64B2AB3375C002DAECB /* XCRemoteSwiftPackageReference "LoadingPackmanViewSPM" */;
-			productName = LoadingPackmanView;
+			package = A16FA64F2AB3590B002DAECB /* XCRemoteSwiftPackageReference "LoadingPacmanViewSPM" */;
+			productName = LoadingPacmanView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

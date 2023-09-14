@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
-import LoadingPackmanView
+import LoadingPacmanView
 
 struct ContentView: View {
     var body: some View {
         LoadingView()
-        Text("Packman loading...")
+        Text("Pacman loading...")
             .foregroundColor(Color(red: 25 / 255,
                                    green: 25 / 255,
                                    blue: 166/255))

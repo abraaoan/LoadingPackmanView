@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "loadingpacmanviewspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abraaoan/LoadingPacmanViewSPM.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dadff0dfca52c12df5553264a18bf61de11b7357"
+      }
+    }
+  ],
+  "version" : 2
+}
