@@ -1,2 +1,3 @@
 # LoadingPackmanView
-![Packman Loading](https://github.com/abraaoan/LoadingPackmanView/assets/1753630/49e8db7a-772d-46a4-ab5c-24c5c91fd145)
+
+![ezgif com-crop-2](https://github.com/abraaoan/LoadingPackmanView/assets/1753630/cd2402f2-977d-41f9-83ae-6dcd143c7d76)
