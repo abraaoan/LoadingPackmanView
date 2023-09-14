@@ -1,20 +1,37 @@
-# Loading PackmanView
+# Loading PacmanView
+[![swiftui-version](https://img.shields.io/badge/swiftui-4-brightgreen)](https://developer.apple.com/documentation/swiftui)
+[![xcode-version](https://img.shields.io/badge/xcode-14.3.1-brightgreen)](https://developer.apple.com/xcode/)
+[![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://en.wikipedia.org/wiki/MIT_License)
+
 Example project using SwiftUI to make an animating loading view.  
 
-![ezgif com-crop-2](https://github.com/abraaoan/LoadingPackmanView/assets/1753630/cd2402f2-977d-41f9-83ae-6dcd143c7d76)
+![ezgif com-crop-2](https://github.com/abraaoan/LoadingPacmanView/assets/1753630/cd2402f2-977d-41f9-83ae-6dcd143c7d76)
 
-## How to use it
-#### Add direct to your view
+## Add custom loading to your view
 
 ```swift
-var body: some View {
-    LoadingView()
-    Text("Packman loading...")
-        .foregroundColor(Color(red: 25 / 255,
-                               green: 25 / 255,
-                               blue: 166/255))
+import LoadingPacmanView
+
+struct ContentView: View {
+    var body: some View {
+        LoadingView()
+        Text("Pacman loading...")
+            .foregroundColor(Color(red: 25 / 255,
+                                   green: 25 / 255,
+                                   blue: 166/255))
+    }
 }
 ```
+
+## Installation
+
+### Swift Package Manager
+```
+dependencies: [
+    .package(url: "https://github.com/abraaoan/LoadingPacmanViewSPM.git")
+]
+```
+
 ## Authors
 
 - [@abraaoan](https://www.github.com/abraaoan)
