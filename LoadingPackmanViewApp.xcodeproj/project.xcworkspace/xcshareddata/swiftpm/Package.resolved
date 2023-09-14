@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "loadingpackmanviewspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/abraaoan/LoadingPackmanViewSPM.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0d36e6f1f0f72fbb3849bda03010b7a0a69235aa"
+      }
+    }
+  ],
+  "version" : 2
+}

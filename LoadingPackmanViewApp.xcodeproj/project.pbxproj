@@ -8,38 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A15BD54E2AB2211600162298 /* LoadingPackmanViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD54D2AB2211600162298 /* LoadingPackmanViewApp.swift */; };
-		A15BD5502AB2211600162298 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD54F2AB2211600162298 /* LoadingView.swift */; };
 		A15BD5522AB2211800162298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15BD5512AB2211800162298 /* Assets.xcassets */; };
 		A15BD5552AB2211800162298 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15BD5542AB2211800162298 /* Preview Assets.xcassets */; };
-		A15BD5602AB2216700162298 /* GhostEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD55D2AB2216700162298 /* GhostEye.swift */; };
-		A15BD5612AB2216700162298 /* Ghost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD55E2AB2216700162298 /* Ghost.swift */; };
-		A15BD5622AB2216700162298 /* GhostBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD55F2AB2216700162298 /* GhostBody.swift */; };
-		A15BD5642AB221D600162298 /* GhostName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD5632AB221D600162298 /* GhostName.swift */; };
-		A15BD5672AB226EC00162298 /* GhostBackgroundEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD5662AB226EC00162298 /* GhostBackgroundEye.swift */; };
-		A15BD5692AB2271800162298 /* GhostInsideEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD5682AB2271800162298 /* GhostInsideEye.swift */; };
-		A15BD56B2AB2274700162298 /* GhostBodyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD56A2AB2274700162298 /* GhostBodyShape.swift */; };
-		A15BD56E2AB2288F00162298 /* Packman.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD56D2AB2288F00162298 /* Packman.swift */; };
-		A15BD5712AB2292A00162298 /* InfiniteScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD5702AB2292A00162298 /* InfiniteScroller.swift */; };
-		A15BD5732AB22B3900162298 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15BD5722AB22B3900162298 /* TrackView.swift */; };
+		A16FA64D2AB3375C002DAECB /* LoadingPackmanView in Frameworks */ = {isa = PBXBuildFile; productRef = A16FA64C2AB3375C002DAECB /* LoadingPackmanView */; };
 		A176BD6A2AB29BE200FCF5CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A176BD692AB29BE200FCF5CE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A15BD54A2AB2211600162298 /* LoadingPackmanView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingPackmanView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15BD54A2AB2211600162298 /* LoadingPackmanViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoadingPackmanViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15BD54D2AB2211600162298 /* LoadingPackmanViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingPackmanViewApp.swift; sourceTree = "<group>"; };
-		A15BD54F2AB2211600162298 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		A15BD5512AB2211800162298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A15BD5542AB2211800162298 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A15BD55D2AB2216700162298 /* GhostEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostEye.swift; sourceTree = "<group>"; };
-		A15BD55E2AB2216700162298 /* Ghost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ghost.swift; sourceTree = "<group>"; };
-		A15BD55F2AB2216700162298 /* GhostBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GhostBody.swift; sourceTree = "<group>"; };
-		A15BD5632AB221D600162298 /* GhostName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostName.swift; sourceTree = "<group>"; };
-		A15BD5662AB226EC00162298 /* GhostBackgroundEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostBackgroundEye.swift; sourceTree = "<group>"; };
-		A15BD5682AB2271800162298 /* GhostInsideEye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostInsideEye.swift; sourceTree = "<group>"; };
-		A15BD56A2AB2274700162298 /* GhostBodyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostBodyShape.swift; sourceTree = "<group>"; };
-		A15BD56D2AB2288F00162298 /* Packman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packman.swift; sourceTree = "<group>"; };
-		A15BD5702AB2292A00162298 /* InfiniteScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScroller.swift; sourceTree = "<group>"; };
-		A15BD5722AB22B3900162298 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		A176BD692AB29BE200FCF5CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16FA64D2AB3375C002DAECB /* LoadingPackmanView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,29 +37,29 @@
 		A15BD5412AB2211600162298 = {
 			isa = PBXGroup;
 			children = (
-				A15BD54C2AB2211600162298 /* LoadingPackmanView */,
+				A15BD54C2AB2211600162298 /* LoadingPackmanViewApp */,
 				A15BD54B2AB2211600162298 /* Products */,
+				A16FA6482AB32B5C002DAECB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A15BD54B2AB2211600162298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A15BD54A2AB2211600162298 /* LoadingPackmanView.app */,
+				A15BD54A2AB2211600162298 /* LoadingPackmanViewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A15BD54C2AB2211600162298 /* LoadingPackmanView */ = {
+		A15BD54C2AB2211600162298 /* LoadingPackmanViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				A15BD55B2AB2214000162298 /* Views */,
 				A15BD54D2AB2211600162298 /* LoadingPackmanViewApp.swift */,
 				A176BD692AB29BE200FCF5CE /* ContentView.swift */,
 				A15BD5512AB2211800162298 /* Assets.xcassets */,
 				A15BD5532AB2211800162298 /* Preview Content */,
 			);
-			path = LoadingPackmanView;
+			path = LoadingPackmanViewApp;
 			sourceTree = "<group>";
 		};
 		A15BD5532AB2211800162298 /* Preview Content */ = {
@@ -90,62 +70,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A15BD55B2AB2214000162298 /* Views */ = {
+		A16FA6482AB32B5C002DAECB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A15BD55C2AB2214F00162298 /* Ghost */,
-				A15BD56C2AB227E300162298 /* Packman */,
-				A15BD56F2AB228C000162298 /* Track */,
-				A15BD54F2AB2211600162298 /* LoadingView.swift */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A15BD55C2AB2214F00162298 /* Ghost */ = {
-			isa = PBXGroup;
-			children = (
-				A15BD5652AB226DA00162298 /* Shapes */,
-				A15BD55E2AB2216700162298 /* Ghost.swift */,
-				A15BD55F2AB2216700162298 /* GhostBody.swift */,
-				A15BD55D2AB2216700162298 /* GhostEye.swift */,
-				A15BD5632AB221D600162298 /* GhostName.swift */,
-			);
-			path = Ghost;
-			sourceTree = "<group>";
-		};
-		A15BD5652AB226DA00162298 /* Shapes */ = {
-			isa = PBXGroup;
-			children = (
-				A15BD5662AB226EC00162298 /* GhostBackgroundEye.swift */,
-				A15BD56A2AB2274700162298 /* GhostBodyShape.swift */,
-				A15BD5682AB2271800162298 /* GhostInsideEye.swift */,
-			);
-			path = Shapes;
-			sourceTree = "<group>";
-		};
-		A15BD56C2AB227E300162298 /* Packman */ = {
-			isa = PBXGroup;
-			children = (
-				A15BD56D2AB2288F00162298 /* Packman.swift */,
-			);
-			path = Packman;
-			sourceTree = "<group>";
-		};
-		A15BD56F2AB228C000162298 /* Track */ = {
-			isa = PBXGroup;
-			children = (
-				A15BD5702AB2292A00162298 /* InfiniteScroller.swift */,
-				A15BD5722AB22B3900162298 /* TrackView.swift */,
-			);
-			path = Track;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A15BD5492AB2211600162298 /* LoadingPackmanView */ = {
+		A15BD5492AB2211600162298 /* LoadingPackmanViewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPackmanView" */;
+			buildConfigurationList = A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPackmanViewApp" */;
 			buildPhases = (
 				A15BD5462AB2211600162298 /* Sources */,
 				A15BD5472AB2211600162298 /* Frameworks */,
@@ -155,9 +92,12 @@
 			);
 			dependencies = (
 			);
-			name = LoadingPackmanView;
+			name = LoadingPackmanViewApp;
+			packageProductDependencies = (
+				A16FA64C2AB3375C002DAECB /* LoadingPackmanView */,
+			);
 			productName = LoadingPackmanView;
-			productReference = A15BD54A2AB2211600162298 /* LoadingPackmanView.app */;
+			productReference = A15BD54A2AB2211600162298 /* LoadingPackmanViewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPackmanView" */;
+			buildConfigurationList = A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPackmanViewApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -184,11 +124,14 @@
 				Base,
 			);
 			mainGroup = A15BD5412AB2211600162298;
+			packageReferences = (
+				A16FA64B2AB3375C002DAECB /* XCRemoteSwiftPackageReference "LoadingPackmanViewSPM" */,
+			);
 			productRefGroup = A15BD54B2AB2211600162298 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A15BD5492AB2211600162298 /* LoadingPackmanView */,
+				A15BD5492AB2211600162298 /* LoadingPackmanViewApp */,
 			);
 		};
 /* End PBXProject section */
@@ -210,19 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15BD5642AB221D600162298 /* GhostName.swift in Sources */,
-				A15BD5502AB2211600162298 /* LoadingView.swift in Sources */,
-				A15BD5622AB2216700162298 /* GhostBody.swift in Sources */,
-				A15BD5692AB2271800162298 /* GhostInsideEye.swift in Sources */,
 				A15BD54E2AB2211600162298 /* LoadingPackmanViewApp.swift in Sources */,
-				A15BD56E2AB2288F00162298 /* Packman.swift in Sources */,
-				A15BD5712AB2292A00162298 /* InfiniteScroller.swift in Sources */,
-				A15BD5672AB226EC00162298 /* GhostBackgroundEye.swift in Sources */,
-				A15BD5602AB2216700162298 /* GhostEye.swift in Sources */,
-				A15BD5612AB2216700162298 /* Ghost.swift in Sources */,
 				A176BD6A2AB29BE200FCF5CE /* ContentView.swift in Sources */,
-				A15BD5732AB22B3900162298 /* TrackView.swift in Sources */,
-				A15BD56B2AB2274700162298 /* GhostBodyShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LoadingPackmanView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LoadingPackmanViewApp/Preview Content\"";
 				DEVELOPMENT_TEAM = GCF3SV3MC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -379,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LoadingPackmanView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LoadingPackmanViewApp/Preview Content\"";
 				DEVELOPMENT_TEAM = GCF3SV3MC7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -404,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPackmanView" */ = {
+		A15BD5452AB2211600162298 /* Build configuration list for PBXProject "LoadingPackmanViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A15BD5562AB2211800162298 /* Debug */,
@@ -413,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPackmanView" */ = {
+		A15BD5582AB2211800162298 /* Build configuration list for PBXNativeTarget "LoadingPackmanViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A15BD5592AB2211800162298 /* Debug */,
@@ -423,6 +355,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A16FA64B2AB3375C002DAECB /* XCRemoteSwiftPackageReference "LoadingPackmanViewSPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/abraaoan/LoadingPackmanViewSPM.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A16FA64C2AB3375C002DAECB /* LoadingPackmanView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A16FA64B2AB3375C002DAECB /* XCRemoteSwiftPackageReference "LoadingPackmanViewSPM" */;
+			productName = LoadingPackmanView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A15BD5422AB2211600162298 /* Project object */;
 }
