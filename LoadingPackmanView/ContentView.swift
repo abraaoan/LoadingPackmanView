@@ -2,20 +2,18 @@
 //  ContentView.swift
 //  LoadingPackmanView
 //
-//  Created by Abraao Nascimento on 13/09/2023.
+//  Created by Abraao Nascimento on 14/09/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        LoadingView()
+        Text("Packman loading...")
+            .foregroundColor(Color(red: 25 / 255,
+                                   green: 25 / 255,
+                                   blue: 166/255))
     }
 }
 
